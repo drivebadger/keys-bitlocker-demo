@@ -1,0 +1,11 @@
+# This file contains Bitlocker recovery keys, one per line.
+# Empty lines, and comments beginning from # are allowed in this file.
+#
+# Multiple bitlocker.keys files are allowed - each in separate repository.
+# When multiple such files are detected, all keys are tested against all possible Bitlocker partitions.
+
+# my laptop 1
+123456-123456-123456-123456-123456-123456-123456-123456
+
+# my laptop 2
+987654-321987-987654-321987-987654-321987-987654-321987
