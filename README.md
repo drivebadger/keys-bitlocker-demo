@@ -8,7 +8,7 @@ It doesn't support PIN, password, FVEK files, TPM interactions etc., as this wou
 Do NOT clone this repository directly. Instead, **fork it** (possibly multiple times), or create similar repositories from stratch
 (empty repository with just `bitlocker.keys` file is enough).
 
-Next, clone each of them as `/opt/drivebadger/config/bitlocker-yourchosenname` local directory on your Drive Badger persistent partition.
+Next, clone each of them as `/opt/drivebadger/config/keys-bitlocker-yourchosenname` local directory on your Drive Badger persistent partition.
 
 This way, you are able to update all cloned repositories in the future by a single command `/opt/drivebadger/update.sh`.
 
